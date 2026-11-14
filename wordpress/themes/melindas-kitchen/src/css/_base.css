@@ -1,0 +1,62 @@
+/* Reset and element defaults. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--mk-surface);
+  font-family: var(--mk-font-display);
+  font-weight: var(--mk-weight-light);
+  font-size: var(--mk-size-body);
+  line-height: var(--mk-leading-body);
+  letter-spacing: var(--mk-track-body);
+  color: var(--mk-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, svg, video { max-width: 100%; height: auto; display: block; }
+
+/* Total: headings carry 30px top / 20px bottom margins. */
+h1, h2, h3, h4, h5, h6 { margin: 30px 0 20px; line-height: 1.4; }
+
+/* Total: paragraphs carry a 20px bottom margin. */
+p { margin: 0 0 20px; }
+
+a { color: var(--mk-accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 0.25em; }
+
+ul, ol { margin: 0; padding: 0; }
+
+button, input, select, textarea { font: inherit; color: inherit; }
+
+:focus-visible {
+  outline: 2px solid var(--mk-gold);
+  outline-offset: 3px;
+}
+
+.screen-reader-text {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 100;
+  padding: 1rem 1.5rem;
+  background: var(--mk-surface);
+}
+.skip-link:focus { left: 1rem; top: 1rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,63 @@
+/* ==========================================================================
+   Grid
+   Two systems from the original, reproduced exactly.
+
+   WPBakery rows:  .vc_row has -15px side margins; columns carry 15px of
+                   horizontal padding and stack below 768px.
+   Total rows:     .wpex-row has -10px side margins; .col carries 10px of
+                   padding and 20px of bottom margin. span_1_of_N sets the
+                   width.
+   ========================================================================== */
+
+/* ---- WPBakery-style rows (page sections) -------------------------------- */
+
+.mk-row {
+  margin-inline: -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mk-row::after { content: ''; display: block; clear: both; }
+
+.mk-col {
+  position: relative;
+  min-height: 1px;
+  padding-inline: 15px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .mk-col-2  { width: 16.66666667%; }
+  .mk-col-4  { width: 33.33333333%; }
+  .mk-col-8  { width: 66.66666667%; }
+  .mk-col-12 { width: 100%; }
+}
+
+/* ---- Total-style rows (product and image grids) ------------------------- */
+
+.wpex-row {
+  margin-inline: -10px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.wpex-row > .col {
+  margin: 0 0 20px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+}
+.wpex-row > .col > div { max-width: 100%; }
+
+.span_1_of_1 { width: 100%; }
+.span_1_of_2 { width: 50%; }
+.span_1_of_3 { width: 33.33%; }
+.span_1_of_4 { width: 25%; }
+.span_1_of_5 { width: 20%; }
+
+@media only screen and (max-width: 767px) {
+  .wpex-row > .col,
+  .span_1_of_2, .span_1_of_3, .span_1_of_4, .span_1_of_5 { width: 100%; }
+}

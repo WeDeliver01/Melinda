@@ -1,0 +1,391 @@
+﻿ID,Type,SKU,Name,Published,Is featured?,Visibility in catalog,Short description,Description,In stock?,Stock,Backorders allowed?,Sold individually?,Regular price,Sale price,Categories,Tags,Images,Parent,Position,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global
+9,variable,,Simplistic Wedding Cake,1,0,visible,"<span style=""font-size: 13px;"">We’ve made it easy for you to order a plain, hassle-free cake for your wedding. Our simplistic wedding cake is available in two finishes, smooth or rustic and is sold as a blank canvas without any decoration or flowers. You can add decorations from the options below to customize the cake to suit your wedding. We prefer that your florist supplies flowers for the cake. Alternatively, we can supply flowers at an additional cost. If you would like a custom design, please fill out our<a href=""https://melindaskitchen.co.za/weddings/""> wedding cake enquiry form</a>.</span>
+
+<span style=""font-size: 13px;"">Please note: Wedding Cakes need to be ordered at least 3 months in advance. We can rarely accommodate Wedding Cake orders within a smaller time frame, especially if you wedding is during the summer. Please give us a call if your wedding is less than 3 months away so that we can check our availability.</span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Wedding Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2020/09/2020-07-28-09.04.38-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20201212_161835-2.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20210220_120912-4.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20210618_123230-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20210904_111738-2-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220402_085544-3.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG-20230507-WA0000.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/2020-07-28-09.04.38-1.jpg",,0,Size,"Single tier (15cm) 16 servings R1195, Single tier (18cm) 30 servings R1795, Two tier (13cm, 18cm) 40 servings R2465, Two tier (15cm, 20cm) 60 servings R3295, Two tier (18cm, 23cm) 80 servings R3840, Three tier (13cm, 18cm, 23cm) 100 servings R4595, Three tier (15cm, 20cm, 25cm) 120 servings R4985",1,0
+10,variation,,Simplistic Wedding Cake,1,,visible,,,1,,,,1195,,,,,id:9,1,Size,Single tier (15cm) 16 servings R1195,,0
+11,variation,,Simplistic Wedding Cake,1,,visible,,,1,,,,1795,,,,,id:9,2,Size,Single tier (18cm) 30 servings R1795,,0
+12,variation,,Simplistic Wedding Cake,1,,visible,,,1,,,,4595,,,,,id:9,6,Size,"Three tier (13cm, 18cm, 23cm) 100 servings R4595",,0
+13,variation,,Simplistic Wedding Cake,1,,visible,,,1,,,,4985,,,,,id:9,7,Size,"Three tier (15cm, 20cm, 25cm) 120 servings R4985",,0
+14,variation,,Simplistic Wedding Cake,1,,visible,,,1,,,,2465,,,,,id:9,3,Size,"Two tier (13cm, 18cm) 40 servings R2465",,0
+15,variation,,Simplistic Wedding Cake,1,,visible,,,1,,,,3295,,,,,id:9,4,Size,"Two tier (15cm, 20cm) 60 servings R3295",,0
+16,variation,,Simplistic Wedding Cake,1,,visible,,,1,,,,3840,,,,,id:9,5,Size,"Two tier (18cm, 23cm) 80 servings R3695",,0
+29,variable,,Semi-naked Wedding Cake,1,0,visible,"<span style=""font-size: 13px;"">The ever-so-popular semi-naked cake is now available for you to order online. Our semi-naked cakes are covered with natural white vanilla buttercream for the perfect finish and is sold as a blank canvas without any decoration or flowers. You can add decorations from the options below to customize the cake to suit your wedding. We prefer that your florist supplies flowers for the cake. Alternatively, we can supply flowers at an additional cost. If you would like a custom design, please fill out our <a href=""https://melindaskitchen.co.za/weddings/"">wedding cake enquiry form</a>.</span>
+
+<span style=""font-size: 13px;"">Please note: Wedding Cakes need to be ordered at least 3 months in advance. We can rarely accommodate Wedding Cake orders within a smaller time frame, especially if you wedding is during the summer. Please give us a call if your wedding is less than 3 months away so that we can check our availability.</span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our 'tall' cakes are made up of four cake layers and our ""medium"" cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Wedding Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20200218_080724_598.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20200201_104106-3-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20200924_094346-3-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20210327_120111-2-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20210426_122038-1-1-scaled.jpg",,0,Size,"Single tier (15cm) 16 servings R995, Single tier (18cm) 30 servings R1360, Two tier (13cm, 18cm) 40 servings R1995, Two tier (15cm, 20cm) 60 servings R2880, Two tier (18cm, 23cm) 80 servings R3290, Three tier (13cm, 18cm, 23cm) 100 servings R3875, Three tier (15cm, 20cm, 25cm) 120 servings R4195",1,0
+30,variation,,Semi-naked Wedding Cake,1,,visible,,,1,,,,995,,,,,id:29,1,Size,Single tier (15cm) 16 servings R995,,0
+31,variation,,Semi-naked Wedding Cake,1,,visible,,,1,,,,1360,,,,,id:29,2,Size,Single tier (18cm) 30 sml servings R1360,,0
+32,variation,,Semi-naked Wedding Cake,1,,visible,,,1,,,,1995,,,,,id:29,3,Size,"Two tier (13cm, 18cm) 40 servings R1995",,0
+33,variation,,Semi-naked Wedding Cake,1,,visible,,,1,,,,2880,,,,,id:29,4,Size,"Two tier (15cm, 20cm) 60 servings R2880",,0
+34,variation,,Semi-naked Wedding Cake,1,,visible,,,1,,,,3290,,,,,id:29,5,Size,"Two tier (18cm, 23cm) 80 servings R3290",,0
+35,variation,,Semi-naked Wedding Cake,1,,visible,,,1,,,,3875,,,,,id:29,6,Size,"Three tier (13cm, 18cm, 23cm) 100 servings R3875",,0
+36,variation,,Semi-naked Wedding Cake,1,,visible,,,1,,,,4195,,,,,id:29,7,Size,"Three tier (15cm, 20cm, 25cm) 120 servings R4195",,0
+37,variable,,Cake Sample Boxes,1,0,visible,"<span style=""font-size: 14px;"">Our cake sample boxes are available to bridal couples to make choosing their dream wedding cake a tasty experience! </span>
+
+<span style=""font-size: 14px;"">Sample boxes can be ordered to collect from our studio in Faerie Glen, Pretoria or delivered (at an additional charge) for you to taste on your own time. We're a studio based bakery, therefore we don't host tastings. </span>
+
+<span style=""font-size: 13px;""><strong></span><span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Wedding Cakes,,https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220311_130243_1-4-scaled.jpg,,0,Size,"Standard box - four flavours, Deluxe box – six flavours",1,0
+47,variation,,Cake Sample Boxes,1,,visible,,Choose four flavours,1,,,,400,,,,,id:37,1,Size,Standard box - four flavours,,0
+48,variation,,Cake Sample Boxes,1,,visible,,Choose six flavours,1,,,,450,,,,,id:37,2,Size,Deluxe box – six flavours,,0
+57,variable,,Buttercream Dreams,1,0,visible,"<span style=""font-size: 14px;"">Adorned with macarons, meringues and icing swirls. This cake reminds us of a party and is the perfect addition to any occasion!</span>
+
+<span style=""font-size: 13px;"">Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice. </span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2020/08/Z1B0030.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20210508_094311-2.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20210508_094414-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20211203_115733-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20211203_115730-scaled.jpg",,0,Size,"12cm Single Tier Cake (medium height) 6 portions R635, 15cm Single Tier Cake (medium height) 12 portions R845, 15cm Single Tier Cake (tall height) 16 portions R995, 18cm Single Tier Cake (tall height) 24 portions R1395, 13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2185, 15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2995",1,0
+59,variation,,Buttercream Dreams,1,,visible,,,1,,,,635,,,,,id:57,2,Size,12cm Single Tier Cake (medium height) 6 portions R635,,0
+60,variation,,Buttercream Dreams,1,,visible,,,1,,,,845,,,,,id:57,3,Size,15cm Single Tier Cake (medium height) 12 portions R845,,0
+61,variation,,Buttercream Dreams,1,,visible,,,1,,,,995,,,,,id:57,4,Size,15cm Single Tier Cake (tall height) 16 portions R995,,0
+62,variation,,Buttercream Dreams,1,,visible,,,1,,,,1395,,,,,id:57,5,Size,18cm Single Tier Cake (tall height) 24 portions R1395,,0
+63,variation,,Buttercream Dreams,1,,visible,,,1,,,,2185,,,,,id:57,6,Size,13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2185,,0
+64,variation,,Buttercream Dreams,1,,visible,,,1,,,,2995,,,,,id:57,7,Size,15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2995,,0
+67,variable,,Party Animal,1,0,visible,"<span style=""font-size: 14px;"">These animals are ready to party! From unicorn to hedgehog – we can do it all! Let us know which party animal you would like to join your celebration.</span>
+
+<span style=""font-size: 13px;"">Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice. </span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20201017_084041-2.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220422_134517-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220820_073856-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20211127_113335.jpg",,0,Size,"12cm Single Tier Cake (medium height) 6 portions R615, 15cm Single Tier Cake (medium height) 12 portions R820, 15cm Single Tier Cake (tall height) 16 portions R965, 18cm Single Tier Cake (tall height) 24 portions R1355, 13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2115, 15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2845",1,0
+68,variation,,Party Animal,1,,visible,,,1,,,,615,,,,,id:67,1,Size,12cm Single Tier Cake (medium height) 6 portions R615,,0
+69,variation,,Party Animal,1,,visible,,,1,,,,820,,,,,id:67,2,Size,15cm Single Tier Cake (medium height) 12 portions R820,,0
+70,variation,,Party Animal,1,,visible,,,1,,,,965,,,,,id:67,3,Size,15cm Single Tier Cake (tall height) 16 portions R965,,0
+71,variation,,Party Animal,1,,visible,,,1,,,,1355,,,,,id:67,4,Size,18cm Single Tier Cake (tall height) 24 portions R1355,,0
+72,variation,,Party Animal,1,,visible,,,1,,,,2115,,,,,id:67,5,Size,13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2115,,0
+73,variation,,Party Animal,1,,visible,,,1,,,,2845,,,,,id:67,6,Size,15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2845,,0
+76,variable,,Ombre,1,0,visible,"<span style=""font-size: 14px;"">Ombre is the perfect blank canvas for you to play around with by adding a drip or fresh flowers or macarons or whatever your heart desires to make a unique creation.</span>
+
+<span style=""font-size: 13px;"">Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice. </span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220128_114119-1-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220128_133500-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20210311_151527-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20210305_121054-4.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220730_091846-scaled.jpg",,0,Size,"12cm Single Tier Cake (medium height) 6 portions R615, 15cm Single Tier Cake (medium height) 12 portions R820, 15cm Single Tier Cake (tall height) 16 portions R965, 18cm Single Tier Cake (tall height) 24 portions R1355, 13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2115, 15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2845",1,0
+77,variation,,Ombre,1,,visible,,,1,,,,615,,,,,id:76,1,Size,12cm Single Tier Cake (medium height) 6 portions R615,,0
+78,variation,,Ombre,1,,visible,,,1,,,,820,,,,,id:76,2,Size,15cm Single Tier Cake (medium height) 12 portions R820,,0
+79,variation,,Ombre,1,,visible,,,1,,,,965,,,,,id:76,3,Size,15cm Single Tier Cake (tall height) 16 portions R965,,0
+80,variation,,Ombre,1,,visible,,,1,,,,1355,,,,,id:76,4,Size,18cm Single Tier Cake (tall height) 24 portions R1355,,0
+81,variation,,Ombre,1,,visible,,,1,,,,2115,,,,,id:76,5,Size,13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2115,,0
+82,variation,,Ombre,1,,visible,,,1,,,,2845,,,,,id:76,6,Size,15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2845,,0
+114,variable,,Plain-Jane,1,0,visible,"<span style=""font-size: 14px;"">Jane can be ordered for when “you just need a cake”. Finished off with rough edge icing and sprinkles, this ‘less is more’ girl, is still a stunner.</span>
+
+<span style=""font-size: 13px;"">Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice. </span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20211125_085301-2.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20211125_085433-1-scaled.jpg",,0,Size,"12cm Single Tier Cake (medium height) 4 - 6 portions R595, 15cm Single Tier Cake (medium height) 10 - 12 portions R745, 18cm Single Tier Cake (medium height) 18 - 20 portions R955",1,0
+115,variation,,Plain-Jane,1,,visible,,,1,,,,595,,,,,id:114,1,Size,12cm Single Tier Cake (medium height) 4 - 6 portions R595,,0
+116,variation,,Plain-Jane,1,,visible,,,1,,,,745,,,,,id:114,2,Size,15cm Single Tier Cake (medium height) 10 - 12 portions R745,,0
+117,variation,,Plain-Jane,1,,visible,,,1,,,,955,,,,,id:114,3,Size,18cm Single Tier Cake (medium height) 18 - 20 portions R955,,0
+162,variable,,Buttercup,1,0,visible,"<span style=""font-size: 14px;"">Buttercup will add fantasy to your party with her scattered buttercream flowers and petals.</span>
+
+<span style=""font-size: 13px;"">Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice. </span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20211204_071819-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20211204_071737.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220708_130101-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20230805_091038_1-3-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20230910_085912-2.jpg",,0,Size,"12cm Single Tier Cake (medium height) 6 portions R750, 15cm Single Tier Cake (medium height) 12 portions R990, 15cm Single Tier Cake (tall height) 16 portions R1190, 18cm Single Tier Cake (tall height) 24 portions R1690, 13cm; 18cm Two Tier Cake (tall height) 48 portions R2250, 15cm; 20cm Two Tier Cake (tall height) 64 portions R2845",1,0
+163,variation,,Buttercup,1,,visible,,,1,,,,750,,,,,id:162,1,Size,12cm Single Tier Cake (medium height) 6 portions R750,,0
+164,variation,,Buttercup,1,,visible,,,1,,,,990,,,,,id:162,2,Size,15cm Single Tier Cake (medium height) 12 portions R990,,0
+165,variation,,Buttercup,1,,visible,,,1,,,,1190,,,,,id:162,3,Size,15cm Single Tier Cake (tall height) 16 portions R1190,,0
+166,variation,,Buttercup,1,,visible,,,1,,,,1690,,,,,id:162,4,Size,18cm Single Tier Cake (tall height) 24 portions R1690,,0
+167,variation,,Buttercup,1,,visible,,,1,,,,2250,,,,,id:162,5,Size,13cm; 18cm Two Tier Cake (tall height) 48 portions R2250,,0
+168,variation,,Buttercup,1,,visible,,,1,,,,2845,,,,,id:162,6,Size,15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2845,,0
+171,variable,,Cocoa,1,0,visible,"<span style=""font-size: 14px;"">Richly topped with chocolate ganache, chocolate candy and metallic leaf accents. This one will definitely curb a sweet craving.</span>
+
+Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice.
+
+Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.
+
+All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220108_082239-2-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220108_082305-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220603_132331-1-scaled.jpg",,0,Size,"12cm Single Tier Cake (medium height) 6 portions R635, 15cm Single Tier Cake (medium height) 12 portions R845, 15cm Single Tier Cake (tall height) 16 portions R995, 18cm Single Tier Cake (tall height) 24 portions R1395, 13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2185, 15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2995",1,0
+172,variation,,Cocoa,1,,visible,,,1,,,,635,,,,,id:171,1,Size,12cm Single Tier Cake (medium height) 6 portions R635,,0
+173,variation,,Cocoa,1,,visible,,,1,,,,845,,,,,id:171,2,Size,15cm Single Tier Cake (medium height) 12 portions R845,,0
+174,variation,,Cocoa,1,,visible,,,1,,,,995,,,,,id:171,3,Size,15cm Single Tier Cake (tall height) 16 portions R995,,0
+175,variation,,Cocoa,1,,visible,,,1,,,,1395,,,,,id:171,4,Size,18cm Single Tier Cake (tall height) 24 portions R1395,,0
+176,variation,,Cocoa,1,,visible,,,1,,,,2185,,,,,id:171,5,Size,13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2185,,0
+177,variation,,Cocoa,1,,visible,,,1,,,,2995,,,,,id:171,6,Size,15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2995,,0
+190,simple,,Cookie Favours,1,0,visible,"A classic vanilla cookie, covered with fondant and decorated to suit your colour scheme. These cookies are ideal party favours or wedding thank you gifts.
+
+Please note – all our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.
+
+<strong>Minimum order of 12</strong>",,1,NULL,no,0,30,,Favors,,https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20200816_134619-2-scaled.jpg,,0,,,,
+204,simple,,Cupcakes,1,0,visible,"A classic cup-sized cake with accompanying icing. We use 100% real butter for our cakes and icings. 
+
+<strong>Minimum order of 12</strong>",,1,NULL,no,0,34,30,Cupcakes,,"https://melindaskitchen.co.za/wp-content/uploads/2020/08/Z1B0076.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20220701_153501-2.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20220826_141648.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20200813_124149.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20210831_141301_1-3-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20240224_090505-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20240322_133134-scaled.jpg",,0,Size 2,"Single tier (12cm) 6 servings, Single tier (medium 15cm) 12 servings, Single tier (tall 15cm) 16 servings, Single tier (medium 18cm) 18 servings, Single tier (tall 18cm) 24 servings, Single tier (tall 20cm) 32 servings, Two tier (13cm, 18cm) 34 std / 48 sml servings, Two tier (15cm, 20cm) 46 std / 64 sml servings",1,1
+214,simple,,Macaron gift boxes,1,0,visible,"2 Macarons in a clear plastic box with ribbon.
+
+Our macaron gift boxes are designed to match your theme or colour scheme so that you can give your guests an edible gift that matches your décor. Colours can be customized and detail such as metallic paint splatter or hand-painted floral motives can be added to each macaron.
+
+<strong>Minimum order of  12</strong>",,1,NULL,no,0,65,,Macaron,,https://melindaskitchen.co.za/wp-content/uploads/2020/09/2020-07-28-08.38.49-1.jpg,,0,,,,
+216,simple,,Cakesicles,1,0,visible,"Cakesicles are cake pops in the shape of a mini popsicle. Our cakesicles are only available in chocolate mud cake flavour, dipped in delicious Belgian white chocolate.
+
+Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice.
+
+All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.
+
+<strong>Minimum of 12 units per order</strong>",,1,NULL,no,0,36,,Cakesicles,,"https://melindaskitchen.co.za/wp-content/uploads/2020/08/Z1B0095.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20220729_131639-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20220729_132250-3.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20240315_125050-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20230818_144118-2-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20240524_101126-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20230612_093031-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20201202_100319-2-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20240306_105556-scaled.jpg",,0,,,,
+852,simple,,Macarons,1,0,visible,"Macarons are meringue and almond flour based confectionary. The shells are sandwiched together with a flavoured filling of your choice.
+
+Available in batches of 24 macarons, one colour and one flavour per 24 macarons.
+
+Please note – all our products are made in a kitchen that uses tree nuts and peanuts, gluten, diary and eggs. Allergy warning: macarons contain almond flour.",,1,NULL,no,0,528,,Macaron,,"https://melindaskitchen.co.za/wp-content/uploads/2021/05/Z1B0872-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2021/05/IMG_20220318_141655-1.jpg",,0,,,,
+954,variable,,Geo Chocolate Hearts,1,0,visible,"An over-sized geometric shaped chocolate heart truffle, filled with a filling of your choice and decorated to suit your theme or colour scheme. Made with Belgian chocolate and filled with Belgian chocolate ganache. These hearts are ideal for corporate gifts, parties treats or wedding thank-you gifts.
+
+Please note – all our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.
+
+<strong>Minimum order of 12</strong>",,1,NULL,no,0,40,,Favors,,https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20210806_113245-2-scaled.jpg,,0,Filling Flavour,"Lemon ganache, Dark chocolate & salted caramel, Nutella, Rose Turkish delight, Coffee ganache",1,0
+959,variation,,Geo Chocolate Hearts,1,,visible,,,1,,,,40,,,,,id:954,1,Filling Flavour,Lemon ganache,,0
+960,variation,,Geo Chocolate Hearts,1,,visible,,,1,,,,40,,,,,id:954,2,Filling Flavour,Dark chocolate & salted caramel,,0
+961,variation,,Geo Chocolate Hearts,1,,visible,,,1,,,,40,,,,,id:954,3,Filling Flavour,Nutella,,0
+962,variation,,Geo Chocolate Hearts,1,,visible,,,1,,,,40,,,,,id:954,4,Filling Flavour,Rose Turkish delight,,0
+963,variation,,Geo Chocolate Hearts,1,,visible,,,1,,,,40,,,,,id:954,5,Filling Flavour,Coffee ganache,,0
+968,variable,,Macaron Tower,1,0,visible,"A real party pleaser - macarons displayed on a perspex stand as great alternative to cake.
+
+Our perspex stand can accommodate a 15cm cake on top. Prices include stand hire.
+
+A top tier cake can be ordered via our online shop or upload a file below and we'll send you a quote for a custom designed cake.
+
+Please note – all our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs. Allergy warning - macarons are made with almond flour.",,1,NULL,no,0,,,"Wedding Cakes, Macaron",,"https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20211113_094433-5.jpg, https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20210501_080328-4.jpg, https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20221105_113303-2.jpg, https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20230812_104822.jpg, https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20230923_115826.jpg",,0,Size,"48 piece tower, 120 piece tower, 150 piece tower",1,0
+970,variation,,Macaron Tower,1,,visible,,,1,,,,2640,,,,,id:968,1,Size,120 piece tower,,0
+971,variation,,Macaron Tower,1,,visible,,,1,,,,3290,,,,,id:968,2,Size,150 piece tower,,0
+986,variable,,Macaron Stack,1,0,visible,"A real party pleaser - macarons displayed on a clear PVC stand as great alternative to cake.
+
+Prices include stand hire, stand to be returned to our studio.
+
+Please note – all our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs. Allergy warning - macarons are made with almond flour.",,1,NULL,no,0,,,Macaron,,"https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20211029_131620-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20260514_094001-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20260427_101244-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20240427_130751.jpg",,0,Size,"48 piece stack, 72 piece stack, 96 piece stack, 144 piece stack",1,0
+1951,variation,,Macaron Stack,1,,visible,,,1,,,,1150,,,,,id:986,1,Size,48 piece stack,,0
+1952,variation,,Macaron Stack,1,,visible,,,1,,,,1650,,,,,id:986,2,Size,72 piece stack,,0
+1953,variation,,Macaron Stack,1,,visible,,,1,,,,2190,,,,,id:986,3,Size,96 piece stack,,0
+1954,variation,,Macaron Stack,1,,visible,,,1,,,,3290,,,,,id:986,4,Size,144 piece stack,,0
+1006,variable,,Christmas Cakesicle and Macaron Gift Box (Copy),0,0,visible,A stocking stuffer gift box the contains chocolate mud cake cakesicles &amp; Nutella macarons; coffee macarons.,,1,NULL,no,0,,,Christmas,,https://melindaskitchen.co.za/wp-content/uploads/2021/11/IMG_20211117_090258-1-scaled.jpg,,0,Size,"Single cakesicle & two macarons R79, Two cakesicles & four macarons R145",1,0
+1007,variation,,Christmas Cakesicle and Macaron Gift Box (Copy),1,,visible,,,1,,,,79,,,,,id:1006,1,Size,Single cakesicle & two macarons R79,,0
+1008,variation,,Christmas Cakesicle and Macaron Gift Box (Copy),1,,visible,,,1,,,,145,,,,,id:1006,2,Size,Two cakesicles & four macarons R145,,0
+1009,variable,,Bare,1,0,visible,"<span style=""font-size: 14px;"">Bare is a semi-naked iced, blank canvas cake, perfect for you to add fresh flowers, macarons or whatever your heart desires. Green leaves, as pictured, are not added.</span>
+
+Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice.
+
+Prices are displayed in the size tab. Our 'tall' cakes are made up of four cake layers and our ""medium"" cakes are made up of three cake layers.
+
+All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2020/08/Z1B0515.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20200924_094346-3-2.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/01/IMG_20220617_102519.jpg",,0,Size,"12cm Single Tier Cake (medium height) 6 portions R595, 15cm Single Tier Cake (medium height) 12 portions R815, 15cm Single Tier Cake (tall height) 16 portions R845, 18cm Single Tier Cake (tall height) 24 portions R1360, 13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R1995, 15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2720",1,0
+1010,variation,,Bare,1,,visible,,,1,,,,595,,,,,id:1009,1,Size,12cm Single Tier Cake (medium height) 6 portions R595,,0
+1011,variation,,Bare,1,,visible,,,1,,,,815,,,,,id:1009,2,Size,,,0
+1012,variation,,Bare,1,,visible,,,1,,,,845,,,,,id:1009,3,Size,15cm Single Tier Cake (tall height) 16 portions R845,,0
+1013,variation,,Bare,1,,visible,,,1,,,,1360,,,,,id:1009,4,Size,18cm Single Tier Cake (tall height) 24 portions R1360,,0
+1014,variation,,Bare,1,,visible,,,1,,,,1995,,,,,id:1009,5,Size,13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R1995,,0
+1015,variation,,Bare,1,,visible,,,1,,,,2720,,,,,id:1009,6,Size,15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2720,,0
+1019,variable,,ISO PARTY BUNDLE (Copy),0,0,visible,,"We're very excited to help you celebrate a special milestone and bring families closer!
+
+In collaboration with Konfetti Love, we have put together the perfect at-home party bundle. Items can be ordered together or separately.
+
+All orders to be placed a mininum of 48hours in advance. Our products are made in a kitchen that uses dairy, gluten, peanuts and tree nuts.
+
+&nbsp;
+
+Let's isolate and celebrate!",0,0,no,0,,,Isolate and celebrate,,"https://melindaskitchen.co.za/wp-content/uploads/2021/07/IMG-20210702-WA0003-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2021/07/IMG-20210702-WA0004-1.jpg",,0,Cake Size,"12cm (4 servings) R295, 12cm (6 servings) R355",1,0
+1020,variation,,ISO PARTY BUNDLE (Copy),1,,visible,,,0,,,,295,,,,,id:1019,1,Cake Size,12cm (4 servings) R295,,0
+1021,variation,,ISO PARTY BUNDLE (Copy),1,,visible,,,0,,,,355,,,,,id:1019,2,Cake Size,12cm (6 servings) R355,,0
+1022,variable,,ISO CUPCAKES (Copy),0,0,visible,,"We're very excited to help you celebrate a special milestone and bring families closer!
+
+In collaboration with Konfetti Love, we have put together the perfect at-home party bundle. Items can be ordered together or separately.
+
+All orders to be placed a mininum of 48hours in advance. Our products are made in a kitchen that uses dairy, gluten, peanuts and tree nuts.
+
+&nbsp;
+
+Let's isolate and celebrate!",0,0,no,0,,,Isolate and celebrate,,"https://melindaskitchen.co.za/wp-content/uploads/2021/07/IMG-20210702-WA0001-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2021/07/IMG-20210702-WA0003-2.jpg",,0,Cupcakes,"Box of 4 R100, Box of 6 R150",1,0
+1023,variation,,ISO CUPCAKES (Copy),1,,visible,,,0,,,,100,,,,,id:1022,1,Cupcakes,Box of 4 R100,,0
+1024,variation,,ISO CUPCAKES (Copy),1,,visible,,,0,,,,150,,,,,id:1022,2,Cupcakes,Box of 6 R150,,0
+1088,variable,,Two-Tone,1,0,visible,"<span style=""font-size: 14px;"">Two-Tone can be used as a  blank canvas cake for you to play around with by adding fresh flowers or whatever your heart desires to make a unique creation. This design is also perfect for a gender reveal cake. </span>
+
+<span style=""font-size: 13px;"">Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice. </span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2022/01/IMG_20220115_091628-3.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/01/IMG_20220819_122229-1-scaled.jpg",,0,Size,"12cm Single Tier Cake (medium height) 6 portions R760, 15cm Single Tier Cake (medium height) 12 portions R890, 15cm Single Tier Cake (tall height) 16 portions R1160, 18cm Single Tier Cake (tall height) 24 portions R1460, 13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2185, 15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2590",1,0
+1089,variation,,Two-Tone,1,,visible,,,1,,,,760,,,,,id:1088,1,Size,12cm Single Tier Cake (medium height) 6 portions R760,,0
+1090,variation,,Two-Tone,1,,visible,,,1,,,,890,,,,,id:1088,2,Size,15cm Single Tier Cake (medium height) 12 portions R890,,0
+1091,variation,,Two-Tone,1,,visible,,,1,,,,1160,,,,,id:1088,3,Size,15cm Single Tier Cake (tall height) 16 portions R1160,,0
+1092,variation,,Two-Tone,1,,visible,,,1,,,,1460,,,,,id:1088,4,Size,18cm Single Tier Cake (tall height) 24 portions R1460,,0
+1093,variation,,Two-Tone,1,,visible,,,1,,,,2185,,,,,id:1088,5,Size,13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2185,,0
+1094,variation,,Two-Tone,1,,visible,,,1,,,,2590,,,,,id:1088,6,Size,15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2590,,0
+1134,variable,,Valentine's Day Picnic Box,0,0,visible,"<span style=""font-size: 14px;"">Have a romantic back yard or living room picnic with your Valentine! Each box serves two:</span>
+
+<span style=""font-size: 14px;"">Standard option</span>
+<ul>
+ 	<li><span style=""font-size: 14px;"">Artisan cheese &amp; charcuterie platter</span></li>
+ 	<li><span style=""font-size: 14px;"">Lemon artichoke dip, crackers, pickles and preserves</span></li>
+ 	<li><span style=""font-size: 14px;"">Sundried tomato and basil pesto mini savoury tartlets</span></li>
+ 	<li><span style=""font-size: 14px;"">Bobotie spiced beef slider; with chutney, turmeric mayo and lettuce</span></li>
+ 	<li><span style=""font-size: 14px;"">Two chocolate mud-cake cakesicles</span></li>
+ 	<li><span style=""font-size: 14px;"">Four salted caramel macarons</span></li>
+</ul>
+<span style=""font-size: 14px;"">OR</span>
+
+<span style=""font-size: 14px;"">Vegetarian option</span>
+<ul>
+ 	<li><span style=""font-size: 14px;"">Artisan cheese &amp; vegetable crudité platter</span></li>
+ 	<li><span style=""font-size: 14px;"">Lemon artichoke dip, crackers, pickles and preserves</span></li>
+ 	<li><span style=""font-size: 14px;"">Sundried tomato and basil pesto mini quiche tartlets</span></li>
+ 	<li><span style=""font-size: 14px;"">Homemade pea and mint slider with onion marmalade and brie</span></li>
+ 	<li><span style=""font-size: 14px;"">Two chocolate mud-cake cakesicles</span></li>
+ 	<li><span style=""font-size: 14px;"">Four salted caramel macarons</span></li>
+</ul>
+&nbsp;
+<ul>
+ 	<li><span style=""font-size: 13px;""><strong>Please note:</strong> Valentine’s Day orders will close on 9 Feb 2022. Please give us a call if you would like to place an order after cut off.</span></li>
+ 	<li><span style=""font-size: 13px;""><b>Care instructions:</b> Keep cool, but do not refrigerate. Enjoy within 48 hours after receiving.<b> </b>All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span></li>
+ 	<li><span style=""font-size: 13px;""><strong>Delivery can be requested on the checkout page. </strong>This will be quoted extra.</span></li>
+</ul>",,0,0,no,0,,,Valentine's Day,,https://melindaskitchen.co.za/wp-content/uploads/2022/02/png_20220202_131400_0000.jpg,,0,Choose An Option,"Standard option R780, Vegetarian option R780",1,0
+1136,variation,,Valentine's Day Picnic Box,1,,visible,,,0,,,,780,,,,,id:1134,1,Choose An Option,Standard option R780,,0
+1137,variation,,Valentine's Day Picnic Box,1,,visible,,,0,,,,780,,,,,id:1134,2,Choose An Option,Vegetarian option R780,,0
+1148,variable,,Marble,1,0,visible,"<span style=""font-size: 14px;"">Marble can be used as a blank canvas cake for you to play around with by adding fresh flowers, dried flowers or rice paper sails to make a unique creation.</span>
+
+We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice.
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2022/02/IMG_20220222_085220.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/02/IMG_20220702_080404-scaled.jpg",,0,Size,"12cm Single Tier Cake (medium height) 6 portions R635, 15cm Single Tier Cake (medium height) 12 portions R845, 15cm Single Tier Cake (tall height) 16 portions R995, 18cm Single Tier Cake (tall height) 24 portions R1395, 13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2185, 15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2995",1,0
+1149,variation,,Marble,1,,visible,,,1,,,,635,,,,,id:1148,1,Size,12cm Single Tier Cake (medium height) 6 portions R635,,0
+1150,variation,,Marble,1,,visible,,,1,,,,845,,,,,id:1148,2,Size,15cm Single Tier Cake (medium height) 12 portions R845,,0
+1151,variation,,Marble,1,,visible,,,1,,,,995,,,,,id:1148,3,Size,15cm Single Tier Cake (tall height) 16 portions R995,,0
+1152,variation,,Marble,1,,visible,,,1,,,,1395,,,,,id:1148,4,Size,18cm Single Tier Cake (tall height) 24 portions R1395,,0
+1153,variation,,Marble,1,,visible,,,1,,,,2185,,,,,id:1148,5,Size,13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2185,,0
+1154,variation,,Marble,1,,visible,,,1,,,,2995,,,,,id:1148,6,Size,15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2995,,0
+1209,variable,,Mother's Day Cake & Flowers,0,0,visible,"<span style=""font-size: 16px;"">Spoil mom with a cake that is perfect to share or have all by herself!</span>
+<ul>
+ 	<li><span style=""font-size: 13px;""><strong>Please note:</strong> Mother's Day orders will close on 7 May 2026, 16h00. Please give us a call if you would like to place an order after cut off. Collection or delivery: 9 May 2026.</span></li>
+ 	<li><span style=""font-size: 13px;""><strong>Cake care: </strong>Once received, store in the fridge and bring to room temperature before serving. Serve your cake within 24 hours after receiving.<b> </b>All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span></li>
+ 	<li><span style=""font-size: 13px;""><strong>Delivery can be requested on the checkout page. </strong>This will be quoted extra.</span></li>
+</ul>",,1,10,no,0,,,Mother's Day,,"https://melindaskitchen.co.za/wp-content/uploads/2022/01/IMG_20220426_082044-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/01/IMG_20220426_082029_1-scaled.jpg",,0,Choose A Flavour,"Vanilla cake filled with vanilla buttercream, Chocolate cake filled with coffee buttercream, Chocolate cake filled with chocolate buttercream",1,0
+1922,variation,,Mother's Day Cake & Flowers,1,,visible,,,1,,,,,,,,,id:1209,1,Choose A Flavour,Vanilla cake filled with vanilla buttercream,,0
+1923,variation,,Mother's Day Cake & Flowers,1,,visible,,,1,,,,,,,,,id:1209,2,Choose A Flavour,Chocolate cake filled with coffee buttercream,,0
+1924,variation,,Mother's Day Cake & Flowers,1,,visible,,,1,,,,,,,,,id:1209,3,Choose A Flavour,Chocolate cake filled with chocolate buttercream,,0
+1212,variable,,Mother's Day Macarons (Copy),0,0,visible,"<span style=""font-size: 14px;"">A box of six beautifully hand painted macarons (contains almond flour).</span>
+<ul>
+ 	<li><span style=""font-size: 13px;""><strong>Please note:</strong> Mother’s Day orders will close on 4 May 2022, 16h00. Please give us a call if you would like to place an order after cut off. Collection or delivery: 7 May 2022.</span></li>
+ 	<li><span style=""font-size: 13px;""><b>Care instructions:</b> Keep refrigerated. Enjoy within 48 hours after receiving.<b> </b>All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span></li>
+ 	<li><span style=""font-size: 13px;""><strong>Delivery can be requested on the checkout page. </strong>This will be quoted extra.</span></li>
+</ul>",,1,9,no,0,,,Mother's Day,,https://melindaskitchen.co.za/wp-content/uploads/2022/01/IMG_20220426_082149-2.jpg,,0,Choose An Option,Box of 6 macarons R120,1,0
+1213,variation,,Mother's Day Macarons (Copy),1,,visible,,,1,,,,120,,,,,id:1212,3,Choose An Option,Box of 6 macarons R120,,0
+1236,simple,,Cookie Favours (Copy),0,0,visible,"Individually wrapped in a clear cellophane bag. A classic vanilla cookie decorated to suit your theme or colour scheme. These cookies are ideal for themed parties or wedding thank you gifts.
+
+Please note – all our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.
+
+<strong>Minimum order of 12</strong>",,1,NULL,no,0,30,,Favors,,https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20200816_134619-2-scaled.jpg,,0,,,,
+1272,simple,,Takeaway Cake,1,0,visible,"Our Takeaway Cakes are 10cm wide, packaged in an eco-friendly burger box and serves 1-2 people, making it the perfect gift or spoil-yourself treat!
+<ul>
+ 	<li><span style=""font-size: 13px;""><strong>Cake care: </strong>Once received, store in the fridge and bring to room temperature before serving. Serve your cake within 24 hours after receiving.<b> </b>All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span></li>
+</ul>
+Create your own design from the options below",,1,NULL,no,0,250,,"Corporate gifts, Edible gifts, Favors, Speciality Cakes",,"https://melindaskitchen.co.za/wp-content/uploads/2022/08/IMG_20220426_082029_1-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/08/IMG_20220212_090927-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/08/IMG_20230404_135012-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/08/IMG_20220426_082044-2-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/08/IMG_20240224_085734.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/08/IMG_20240517_105358-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/08/IMG_20240530_144751-scaled.jpg",,0,,,,
+1297,variable,,Jardin,1,0,visible,"<span style=""font-size: 13px;"">Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice. </span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,https://melindaskitchen.co.za/wp-content/uploads/2022/08/IMG_20220827_084225-1-scaled.jpg,,0,Size,"12cm Single Tier Cake (medium height) 6 portions R695, 15cm Single Tier Cake (medium height) 12 portions R895, 15cm Single Tier Cake (tall height) 16 portions R1145, 18cm Single Tier Cake (tall height) 24 portions R1495, 13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2185, 15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2995",1,0
+1298,variation,,Jardin,1,,visible,,,1,,,,695,,,,,id:1297,1,Size,12cm Single Tier Cake (medium height) 6 portions R695,,0
+1299,variation,,Jardin,1,,visible,,,1,,,,895,,,,,id:1297,2,Size,15cm Single Tier Cake (medium height) 12 portions R895,,0
+1300,variation,,Jardin,1,,visible,,,1,,,,1145,,,,,id:1297,3,Size,15cm Single Tier Cake (tall height) 16 portions R1145,,0
+1301,variation,,Jardin,1,,visible,,,1,,,,1495,,,,,id:1297,4,Size,18cm Single Tier Cake (tall height) 24 portions R1495,,0
+1302,variation,,Jardin,1,,visible,,,1,,,,2185,,,,,id:1297,5,Size,13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2185,,0
+1303,variation,,Jardin,1,,visible,,,1,,,,2995,,,,,id:1297,6,Size,15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2995,,0
+1433,variable,,Eden,1,0,visible,"<span style=""font-size: 14px;"">Eden is a hand-piped and hand-painted floral buttercream cake.</span>
+
+<span style=""font-size: 13px;"">Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice. </span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2023/09/IMG_20230715_075822-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2023/09/IMG_20230715_075909-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2023/09/IMG_20230930_064458.jpg",,0,Size,"12cm Single Tier Cake (medium height) 6 portions R745, 15cm Single Tier Cake (medium height) 12 portions R925, 15cm Single Tier Cake (tall height) 16 portions R1230, 18cm Single Tier Cake (tall height) 24 portions R1475, 13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2215, 15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2955",1,0
+1434,variation,,Eden,1,,visible,,,1,,,,745,,,,,id:1433,1,Size,12cm Single Tier Cake (medium height) 6 portions R745,,0
+1435,variation,,Eden,1,,visible,,,1,,,,925,,,,,id:1433,2,Size,15cm Single Tier Cake (medium height) 12 portions R925,,0
+1436,variation,,Eden,1,,visible,,,1,,,,1230,,,,,id:1433,3,Size,15cm Single Tier Cake (tall height) 16 portions R1230,,0
+1437,variation,,Eden,1,,visible,,,1,,,,1475,,,,,id:1433,4,Size,18cm Single Tier Cake (tall height) 24 portions R1475,,0
+1438,variation,,Eden,1,,visible,,,1,,,,2215,,,,,id:1433,5,Size,13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2215,,0
+1439,variation,,Eden,1,,visible,,,1,,,,2955,,,,,id:1433,6,Size,15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2955,,0
+1461,variable,,Sweetheart,1,0,visible,"<span style=""font-size: 14px;"">Sweetheart is a heart shaped buttercream cake with piped buttercream borders.</span>
+
+<span style=""font-size: 13px;"">Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice. </span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our “medium” cakes are made up of three cake layers.</span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2023/11/IMG_20230929_094505_1-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2023/11/IMG_20230929_094505_1-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2023/11/IMG_20230929_094509-1-scaled.jpg",,0,Size,"15cm Single Tier Cake (medium height) 12 portions R1195, 20cm Single Tier Cake (medium height) 20 portions R1475",1,0
+1463,variation,,Sweetheart,1,,visible,,,1,,,,1195,,,,,id:1461,2,Size,15cm Single Tier Cake (medium height) 12 portions R1195,,0
+1464,variation,,Sweetheart,1,,visible,,,1,,,,1475,,,,,id:1461,3,Size,20cm Single Tier Cake (medium height) 20 portions R1475,,0
+1592,variable,,Café Cake,1,0,visible,"<span style=""font-size: 14px;"">Our Caf</span>é Cakes are perfect for any occasion when you don't need a cake with all the bells &amp; whistles. These cakes have the same delicious taste as our standard designs without the frills. Please get in-touch with us for prices on weekly orders for coffee shops.
+
+<span style=""font-size: 13px;"">Please note: We require at least 6 days lead time, (if we aren’t already fully booked). Orders close on a Wednesday at 16h00 for the following week. Please WhatsApp/call if you want to order with shorter notice. </span>
+
+<span style=""font-size: 13px;"">Prices are displayed in the size tab. Our Caf</span>é C<span style=""font-size: 13px;"">akes are 18cm wide and made up of three cake layers, standing 12cm tall. Serves 12 - 16. </span>
+
+<span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2024/06/IMG_20240531_111929-1.jpg, https://melindaskitchen.co.za/wp-content/uploads/2024/06/IMG_20240531_112054-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2024/06/IMG_20240531_112031-scaled.jpg",,0,Size,18cm Single Tier Cake (medium height) 12 - 18 portions R650,1,0
+1593,variation,,Café Cake,1,,visible,,,1,,,,650,,,,,id:1592,1,Size,18cm Single Tier Cake (medium height) 12 - 18 portions R650,,0
+1713,simple,,Build Your Own Gingerbread House (Copy),0,0,visible,"A fun holiday activity box with all the tools and ingredients you need to build your own Gingerbread House.
+
+The kit comes complete with:
+<ul>
+ 	<li>Gingerbread house panels and roof</li>
+ 	<li>Icing premix</li>
+ 	<li>Piping bag</li>
+ 	<li>Candy and decorations</li>
+ 	<li>Cake board to build your house on</li>
+ 	<li>Instruction leaflet</li>
+</ul>
+&nbsp;",,1,NULL,no,0,245,,Christmas,,"https://melindaskitchen.co.za/wp-content/uploads/2022/01/WhatsApp-Image-2024-11-20-at-17.22.48_3299acfc-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2022/01/WhatsApp-Image-2024-11-20-at-17.22.48_68e77b85-scaled.jpg",,0,,,,
+1798,simple,,Logo / Themed Cupcakes,1,0,visible,"A classic cup-sized cake with accompanying frosting and edible printed logo or picture.
+We give discount for bulk orders, get in touch:<a href=""http://info@melindaskitchen.co.za"">info@melindaskitchen.co.za</a>
+
+<strong>Minimum order of 12</strong>",,1,NULL,no,0,42,,"Cupcakes, Corporate gifts",,"https://melindaskitchen.co.za/wp-content/uploads/2025/08/IMG_20220803_142814-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2025/08/IMG_20230419_070348-scaled.jpg",,0,Size 2,"Single tier (12cm) 6 servings, Two tier (15cm, 20cm) 46 std / 64 sml servings, Two tier (13cm, 18cm) 34 std / 48 sml servings, Single tier (medium 15cm) 12 servings, Single tier (tall 15cm) 16 servings, Single tier (medium 18cm) 18 servings, Single tier (tall 20cm) 32 servings, Single tier (tall 18cm) 24 servings",1,1
+1809,variable,,Celebration Bundle,1,0,visible,"We've made it easy for you to put together the perfect sweet spread for your next celebration!
+
+Our Celebration Bundle consists of a cake, cupcakes, cookies, cakesicles and meringue pops, all decorated match your theme or colour scheme.  
+
+Choose from 12, 18 or 24 portion bundle. 
+A 12 portion bundle serves +-24 guests, 
+an 18 portion bundle serves +- 36 guests
+and a 24 portion bundle serves +- 48 guests. 
+
+Please note: Orders close on a Friday for the following week. Please WhatsApp/call if you want to order with shorter notice. All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.",,1,NULL,no,0,,,Speciality Cakes,,"https://melindaskitchen.co.za/wp-content/uploads/2025/09/IMG_20250726_091241-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2025/09/IMG_20250726_091244-scaled.jpg",,0,Bundle Size,"15cm, 12 Portion Cake with 12 of each Sweet Treat R2590, 15cm, 18 Portion Cake with 18 of each Sweet Treat R3590, 18cm, 24 Portion Cake with 24 of each Sweet Treat R4590",1,0
+1810,variation,,Celebration Bundle,1,,visible,,,1,,,,2590,,,,,id:1809,1,Bundle Size,"15cm, 12 Portion Cake with 12 of each Sweet Treat R2590",,0
+1811,variation,,Celebration Bundle,1,,visible,,,1,,,,3590,,,,,id:1809,2,Bundle Size,"15cm, 18 Portion Cake with 18 of each Sweet Treat R3590",,0
+1813,variation,,Celebration Bundle,1,,visible,,,1,,,,4590,,,,,id:1809,3,Bundle Size,"18cm, 24 Portion Cake with 24 of each Sweet Treat R4590",,0
+1825,simple,,Themed Cakesicles,1,0,visible,"Cakesicles are cake pops in the shape of a mini popsicle. Our cakesicles are only available in chocolate mud cake flavour, dipped in delicious Belgian white chocolate and decorated to theme.
+
+Please note: We require at least 4 days lead time, (if we aren’t already fully booked). Orders close on a Tuesday at 16h00 for the week. Please WhatsApp/call if you want to order with shorter notice.
+
+All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.
+
+<strong>Minimum of 12 units per order</strong>",,1,NULL,no,0,40,,"Cakesicles, Edible gifts, Favors",,"https://melindaskitchen.co.za/wp-content/uploads/2025/09/IMG_20210118_155607-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2025/09/IMG_20250912_125412-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2025/09/IMG_20250911_083906-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2025/09/IMG_20210626_092658-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2025/09/IMG_20201203_091753-1-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20211119_140124-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20211015_112538-scaled.jpg, https://melindaskitchen.co.za/wp-content/uploads/2020/09/IMG_20221119_100732.jpg",,0,,,,
+1958,variable,,Mother's Day Mini Cake & Flowers (Copy),0,0,visible,"Spoil mom with a mini cake and flowers, the perfect combo! 
+13cm cake, serves up to 4 people.","Spoil mom with a mini cake and flowers, the perfect combo! 
+13cm cake, serves up to 4 people.",1,NULL,no,0,,,"Mother's Day, Corporate gifts",,"https://melindaskitchen.co.za/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-05-at-7.05.40-PM.jpeg, https://melindaskitchen.co.za/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-05-at-7.05.40-PM-1.jpeg",,0,Cake Flavour,"Vanilla cake filled with vanilla buttercream, Chocolate cake filled with coffee buttercream, Chocolate cake filled with chocolate buttercream",1,0
+1959,variation,,Mother's Day Mini Cake & Flowers (Copy),1,,visible,,,1,,,,399,,,,,id:1958,1,Cake Flavour,Vanilla cake filled with vanilla buttercream,,0
+1960,variation,,Mother's Day Mini Cake & Flowers (Copy),1,,visible,,,1,,,,399,,,,,id:1958,2,Cake Flavour,Chocolate cake filled with coffee buttercream,,0
+1961,variation,,Mother's Day Mini Cake & Flowers (Copy),1,,visible,,,1,,,,399,,,,,id:1958,3,Cake Flavour,Chocolate cake filled with chocolate buttercream,,0
+1963,simple,,Pearl Symphony,-1,0,visible,"Pearl Symphony is iced with smooth buttercream and decorated with cascading pearls in various size. Available in single-tier, two-tier and three-tier options. 
+
+Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.
+
+All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.",,1,NULL,no,0,,,"Wedding Cakes, Speciality Cakes",,https://melindaskitchen.co.za/wp-content/uploads/2026/06/file_00000000306871f491067bc1d277498c.png,,0,Size,"12cm Single Tier Cake (medium height) 6 portions R745, 15cm Single Tier Cake (medium height) 12 portions R925, 15cm Single Tier Cake (tall height) 16 portions R1230, 18cm Single Tier Cake (tall height) 24 portions R1475, 13cm; 18cm Two Tier Cake (tall height) 34 - 48 portions R2215, 15cm; 20cm Two Tier Cake (tall height) 46 - 64 portions R2955",1,0
+1993,variable,,Cake Sample Boxes (Copy),0,0,visible,"<span style=""font-size: 14px;"">Our cake sample boxes are available to bridal couples to make choosing their dream wedding cake a tasty experience! </span>
+
+<span style=""font-size: 14px;"">Sample boxes can be ordered to collect from our studio in Faerie Glen, Pretoria or delivered (at an additional charge) for you to taste on your own time. We're a studio based bakery, therefore we don't host tastings. </span>
+
+<span style=""font-size: 13px;""><strong>Please note:</strong> Orders close on a Wednesday for the following week. Please WhatsApp/call if you want to order with shorter notice. </span><span style=""font-size: 13px;"">All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</span>",,1,NULL,no,0,,,Wedding Cakes,,https://melindaskitchen.co.za/wp-content/uploads/2020/08/IMG_20220311_130243_1-4-scaled.jpg,,0,Size,"Standard box - four flavours, Deluxe box – six flavours",1,0
+1994,variation,,Cake Sample Boxes (Copy),1,,visible,,Choose four flavours,1,,,,400,,,,,id:1993,1,Size,Standard box - four flavours,,0
+1995,variation,,Cake Sample Boxes (Copy),1,,visible,,Choose six flavours,1,,,,450,,,,,id:1993,2,Size,Deluxe box – six flavours,,0
+2022,variable,,Pearl Symphony,1,0,visible,"Pearl Symphony is iced with smooth buttercream and decorated with cascading pearls in various size. Available in single-tier, two-tier and three-tier options. 
+
+Prices are displayed in the size tab. Our ‘tall’ cakes are made up of four cake layers and our “medium” cakes are made up of three cake layers.
+
+<strong>All our products are made in a kitchen that uses tree nuts and peanuts, gluten, dairy and eggs.</strong>.,",,1,NULL,no,0,,,Wedding Cakes,,https://melindaskitchen.co.za/wp-content/uploads/2026/06/file_00000000306871f491067bc1d277498c.png,,0,Size,"Single tier (15cm) 16 servings R1250, Single tier (18cm) 30 servings R1650, Two tier (13cm, 18cm) 40 servings R2790, Two tier (15cm, 20cm) 60 servings R3390, Two tier (18cm, 23cm) 80 servings R4450, Three tier (13cm, 18cm, 23cm) 100 servings R5790, Three tier (15cm, 20cm, 25cm) 120 servings R6690",1,0
+2023,variation,,Pearl Symphony,1,,visible,,,1,,,,1250,,,,,id:2022,1,Size,Single tier (15cm) 16 servings R1250,,0
+2024,variation,,Pearl Symphony,1,,visible,,,1,,,,1650,,,,,id:2022,2,Size,Single tier (18cm) 30 servings R1650,,0
+2025,variation,,Pearl Symphony,1,,visible,,,1,,,,2790,,,,,id:2022,3,Size,"Two tier (13cm, 18cm) 40 servings R2790",,0
+2026,variation,,Pearl Symphony,1,,visible,,,1,,,,3390,,,,,id:2022,4,Size,"Two tier (15cm, 20cm) 60 servings R3390",,0
+2027,variation,,Pearl Symphony,1,,visible,,,1,,,,4450,,,,,id:2022,5,Size,"Two tier (18cm, 23cm) 80 servings R4450",,0
+2028,variation,,Pearl Symphony,1,,visible,,,1,,,,5790,,,,,id:2022,6,Size,"Three tier (13cm, 18cm, 23cm) 100 servings R5790",,0
+2029,variation,,Pearl Symphony,1,,visible,,,1,,,,6690,,,,,id:2022,7,Size,"Three tier (15cm, 20cm, 25cm) 120 servings R6690",,0

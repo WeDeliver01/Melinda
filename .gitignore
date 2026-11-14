@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+*.log
+
+# Never commit
+*.sql
+*.sql.gz
+*-db.gz
+wp-config.php
+.env
+.env.*
+
+# Large media archives: restore with scripts/restore-uploads.sh
+*uploads*.zip

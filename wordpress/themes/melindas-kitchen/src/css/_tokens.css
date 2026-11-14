@@ -1,0 +1,111 @@
+/* ==========================================================================
+   Melinda's Kitchen: design tokens
+   Every value below is taken from the previous site's stylesheet.
+   ========================================================================== */
+
+:root {
+  /* Colour. Three golds exist in the original and are one to two points
+     apart. #B69778 is the custom-CSS value used on headings; #B69576 is the
+     theme accent used on buttons and links; #B49778 is the footer rule. */
+  --mk-gold:        #B69778;
+  --mk-accent:      #B69576;
+  --mk-rule:        #B49778;
+  --mk-ink:         rgb(99 99 99);
+  --mk-ink-soft:    #686868;
+  --mk-surface:     #FFFFFF;
+
+  /* Type. Addington CF is not licensed on this install; Cormorant Garamond
+     stands in until that is resolved. 'addington-cf' takes priority the
+     moment an Adobe kit containing it is set. */
+  --mk-font-display: 'addington-cf', 'Cormorant Garamond', Georgia, serif;
+  --mk-font-ui:      'Montserrat', -apple-system, 'Segoe UI', sans-serif;
+
+  /* Exact sizes from the original: h1 24px italic gold, h2 18px uppercase
+     ink, h3 14px Montserrat uppercase, body 16px. */
+  --mk-size-h1:      24px;
+  --mk-size-h2:      18px;
+  --mk-size-h3:      14px;
+  --mk-size-body:    16px;
+
+  --mk-track-wide:   0.2em;
+  --mk-track-h1:     0.1em;
+  --mk-track-body:   0.4px;
+
+  --mk-leading-body: 2;
+  --mk-leading-head: 1.8;
+
+  --mk-container:    1100px;
+  --mk-logo-height:  200px;
+
+  --mk-radius:       0;
+  --mk-btn-pad:      15px 30px;
+}
+
+/* Headings, exactly as the original declares them. */
+
+h1, .h1, .mk-h1 {
+  font-family: var(--mk-font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: var(--mk-size-h1);
+  letter-spacing: var(--mk-track-h1);
+  text-transform: none;
+  color: var(--mk-gold);
+}
+
+h2, .h2, .mk-h2,
+.product_title,
+.cart-empty {
+  font-family: var(--mk-font-display);
+  font-style: normal;
+  font-weight: 300;
+  font-size: var(--mk-size-h2);
+  line-height: var(--mk-leading-head);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+  color: var(--mk-ink);
+}
+
+h3, .h3, .mk-h3 {
+  font-family: var(--mk-font-ui);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--mk-size-h3);
+  line-height: var(--mk-leading-head);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+}
+
+p, .p, .mk-body {
+  font-family: var(--mk-font-display);
+  font-weight: 300;
+  font-size: var(--mk-size-body);
+  line-height: var(--mk-leading-body);
+  letter-spacing: var(--mk-track-body);
+  color: var(--mk-ink);
+  text-align: justify;
+}
+
+/* Buttons use the theme accent, not the heading gold. */
+.theme-button,
+.mk-btn,
+button,
+input[type="submit"],
+.button {
+  display: inline-block;
+  font-family: var(--mk-font-ui);
+  font-weight: 400;
+  font-size: var(--mk-size-h3);
+  line-height: var(--mk-leading-head);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+  border: 1px solid var(--mk-accent);
+  border-radius: var(--mk-radius);
+  padding: var(--mk-btn-pad);
+  background: var(--mk-accent);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+.theme-button:hover,
+.mk-btn:hover { background: transparent; color: var(--mk-accent); text-decoration: none; }

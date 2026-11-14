@@ -1,0 +1,175 @@
+/* WooCommerce overrides. Kept in one file so Woo updates are easy to audit. */
+
+.woocommerce-notices-wrapper:empty { display: none; }
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+  border: 1px solid var(--mk-gold);
+  border-radius: 0;
+  background: #fff;
+  padding: 1rem 1.25rem;
+  list-style: none;
+  margin-block-end: 2rem;
+}
+
+/* Single product: gallery / summary split carried over from the old site. */
+
+.single-product div.product {
+  display: grid;
+  grid-template-columns: var(--mk-gallery-col) var(--mk-summary-col);
+  gap: 4%;
+  align-items: start;
+}
+@media (max-width: 48rem) {
+  .single-product div.product { grid-template-columns: 1fr; gap: 2rem; }
+}
+
+.single-product .product_title {
+  font-family: var(--mk-font-display);
+  font-weight: var(--mk-weight-light);
+  font-size: var(--mk-size-h2);
+  line-height: var(--mk-leading-head);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+  color: var(--mk-ink);
+}
+
+.single-product .price {
+  font-family: var(--mk-font-ui);
+  font-size: var(--mk-size-h3);
+  letter-spacing: var(--mk-track-wide);
+  color: var(--mk-gold);
+}
+
+.single_add_to_cart_button,
+.wc-backward,
+.checkout-button,
+.woocommerce-Button,
+button[name="update_cart"],
+.wc-block-components-button {
+  font-family: var(--mk-font-ui) !important;
+  font-size: var(--mk-size-h3) !important;
+  letter-spacing: var(--mk-track-wide) !important;
+  text-transform: uppercase;
+  border-radius: var(--mk-radius) !important;
+  padding: var(--mk-btn-pad) !important;
+  background: var(--mk-gold) !important;
+  color: #fff !important;
+  border: 1px solid var(--mk-gold) !important;
+}
+
+/* Forms: square, hairline, generous. */
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row select,
+.woocommerce form .form-row textarea {
+  border: 1px solid rgb(0 0 0 / 0.15);
+  border-radius: 0;
+  padding: 0.9rem 1rem;
+  width: 100%;
+}
+
+.woocommerce-checkout h3,
+.cart-collaterals h2,
+.woocommerce table th {
+  font-family: var(--mk-font-display);
+  font-weight: var(--mk-weight-light);
+  font-size: var(--mk-size-h2);
+  line-height: var(--mk-leading-head);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+  color: var(--mk-ink);
+}
+
+.woocommerce table.shop_table {
+  border-radius: 0;
+  border-collapse: collapse;
+}
+.woocommerce table.shop_table td,
+.woocommerce table.shop_table th {
+  border-color: rgb(0 0 0 / 0.08);
+}
+
+/* ==========================================================================
+   Product loop
+   Four across on a Total row, with the hover image swap. Values taken from
+   wpex-woocommerce.css.
+   ========================================================================== */
+
+ul.products {
+  clear: both;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  padding: 0;
+}
+
+/* Four across, matching span_1_of_4 on the original. */
+ul.products > li.product {
+  width: 25%;
+  margin: 0 0 20px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  float: none;
+  clear: none;
+}
+
+@media only screen and (max-width: 959px) {
+  ul.products > li.product { width: 33.33%; }
+}
+@media only screen and (max-width: 767px) {
+  ul.products > li.product { width: 50%; }
+}
+
+/* Images fill their column regardless of the file size WordPress served. */
+ul.products > li.product img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  display: block;
+}
+
+.products .product { overflow: hidden; }
+.products .product a { text-decoration: none; }
+.products .product img { vertical-align: text-bottom; }
+.products .product .product-inner { position: relative; }
+.products .product .product-details { padding-top: 15px; text-align: center; }
+
+/* Hover image swap. The first gallery image sits behind the featured image
+   and is revealed by fading the main one out. */
+.woo-entry-image-swap { position: relative; overflow: hidden; }
+.woo-entry-image-swap img {
+  box-shadow: 0 0 0 transparent;
+  transition: opacity 0.25s linear;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.woo-entry-image-swap .woo-entry-image-main { margin-bottom: 0; z-index: 2; position: relative; }
+.woo-entry-image-swap .woo-entry-image-secondary { z-index: 1; position: absolute; top: 0; left: 0; overflow: hidden; }
+.wpex-loop-product-images:hover .woo-entry-image-swap .woo-entry-image-main { opacity: 0; }
+
+/* Title: the Woo rule outranks the site's h2 rule here, so it is sentence
+   case at 1.077em, weight 300 from the custom CSS, not uppercase. */
+.woocommerce-loop-product__title {
+  font-family: inherit;
+  font-size: 1.077em;
+  font-weight: 300;
+  margin: 0 0 5px;
+  padding: 0;
+  color: #222;
+  letter-spacing: inherit;
+  font-style: inherit;
+  text-transform: none;
+  line-height: 1.4;
+}
+.woocommerce-loop-product__title:hover { color: #222; }
+
+/* Result count and ordering: 0 10px 30px 0, ordering floats right. */
+.woocommerce-result-count,
+.woocommerce-ordering { margin: 0 10px 30px 0; }
+.woocommerce-ordering { float: right; margin-right: 0; }

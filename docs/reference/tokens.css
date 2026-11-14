@@ -1,0 +1,146 @@
+/* ==========================================================================
+   Melinda's Kitchen: design tokens
+   Extracted from the live site (theme_mods_broodenbotter + custom_css post 22)
+   on 2026-09-13. These are the brand, reproduced faithfully. Nothing invented.
+   ========================================================================== */
+
+:root {
+
+  /* ---- Colour -----------------------------------------------------------
+     The palette is three values. That is the whole brand: a warm gold,
+     a mid-grey for text, and white. Resist adding to it.                    */
+
+  --mk-gold:        #B69778;  /* headings, primary buttons, accents          */
+  --mk-gold-alt:    #B69576;  /* Customizer accent_color; 2 points off the   */
+                              /* CSS value above. See note 1 below.          */
+  --mk-ink:         #636363;  /* body copy, h2, table headers (was rgb 99)   */
+  --mk-ink-soft:    #686868;  /* secondary text                             */
+  --mk-surface:     #FFFFFF;
+  --mk-overlay:     rgb(255 255 255 / 0.8);  /* product image title plate    */
+
+  /* ---- Type -------------------------------------------------------------
+     Addington CF Light is the brand face and carries everything except
+     buttons and h3, which are Montserrat. Both are set very light with
+     wide tracking: that combination is the luxury signal on this site.      */
+
+  --mk-font-display: 'Addington CF', Georgia, 'Times New Roman', serif;
+  --mk-font-ui:      'Montserrat', -apple-system, 'Segoe UI', sans-serif;
+
+  --mk-weight-light: 300;
+  --mk-weight-ui:    400;
+
+  /* Scale. The live site sets these as fixed px. Converted to rem at a
+     16px root; add clamp() per breakpoint when you build the theme.         */
+  --mk-size-h1:      1.5rem;    /* 24px, italic, gold                        */
+  --mk-size-h2:      1.125rem;  /* 18px, uppercase, ink                      */
+  --mk-size-h3:      0.875rem;  /* 14px, uppercase, Montserrat               */
+  --mk-size-body:    1rem;      /* 16px                                      */
+
+  --mk-track-wide:   0.2em;     /* uppercase headings, buttons               */
+  --mk-track-h1:     0.1em;
+  --mk-track-body:   0.025em;   /* 0.4px at 16px                             */
+
+  --mk-leading-body: 2;         /* generous, deliberate                      */
+  --mk-leading-head: 1.8;
+
+  /* ---- Layout ------------------------------------------------------------ */
+
+  --mk-container:    1100px;
+  --mk-logo-height:  200px;     /* unusually tall; the logo IS the header     */
+  --mk-gallery-col:  44%;       /* product page: gallery / summary split      */
+  --mk-summary-col:  52%;
+
+  /* ---- Components -------------------------------------------------------- */
+
+  --mk-radius:       0;         /* square corners everywhere. Load-bearing.   */
+  --mk-btn-pad:      15px 30px;
+}
+
+/* --------------------------------------------------------------------------
+   Type treatments, reproduced as reusable classes rather than the ~14
+   duplicated selector blocks on the live site.
+   -------------------------------------------------------------------------- */
+
+.mk-h1 {
+  font-family: var(--mk-font-display);
+  font-style: italic;
+  font-weight: var(--mk-weight-light);
+  font-size: var(--mk-size-h1);
+  letter-spacing: var(--mk-track-h1);
+  color: var(--mk-gold);
+  text-transform: none;
+}
+
+.mk-h2 {
+  font-family: var(--mk-font-display);
+  font-weight: var(--mk-weight-light);
+  font-size: var(--mk-size-h2);
+  line-height: var(--mk-leading-head);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+  color: var(--mk-ink);
+}
+
+.mk-h3 {
+  font-family: var(--mk-font-ui);
+  font-weight: var(--mk-weight-ui);
+  font-size: var(--mk-size-h3);
+  line-height: var(--mk-leading-head);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+}
+
+.mk-body {
+  font-family: var(--mk-font-display);
+  font-weight: var(--mk-weight-light);
+  font-size: var(--mk-size-body);
+  line-height: var(--mk-leading-body);
+  letter-spacing: var(--mk-track-body);
+  color: var(--mk-ink);
+}
+
+.mk-btn {
+  font-family: var(--mk-font-ui);
+  font-weight: var(--mk-weight-ui);
+  font-size: var(--mk-size-h3);
+  line-height: var(--mk-leading-head);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+  border-radius: var(--mk-radius);
+  padding: var(--mk-btn-pad);
+  background-color: var(--mk-gold);
+  color: var(--mk-surface);
+  border: 0;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   NOTES FOR THE REBUILD
+   ==========================================================================
+
+   1. Two golds. The Customizer accent is #B69576, the hand-written CSS uses
+      #B69778. Two points apart, invisible side by side, but it means buttons
+      and headings are fractionally different hues today. Pick one with
+      Melinda and use it everywhere. Recommend #B69778, since that is what
+      appears on headings and add-to-cart, the two places customers look.
+
+   2. Body copy is `text-align: justify` on the live site. Justified text
+      without hyphenation produces rivers of whitespace on narrow screens.
+      Flag it to Melinda rather than porting it silently.
+
+   3. Product tabs are hidden (`.woocommerce-tabs { display: none }`).
+      Description, additional info and reviews are all suppressed. Worth
+      asking whether that was intentional or a workaround.
+
+   4. Entry price, rating and add-to-cart are all switched OFF on shop
+      archives (woo_show_entry_price / _rating / _add_to_cart = false).
+      Products are presented as a lookbook, not a grid of prices. That is a
+      real brand decision and should carry over.
+
+   5. Addington CF is a commercial face from Connary Fagen, self-hosted from
+      the DOMAIN ROOT (melindaskitchen.co.za/AddingtonCF-Light.woff), not
+      from wp-content. It will NOT be in a wp-content backup. Download those
+      files from the live site before DNS moves, and confirm the licence
+      covers web use. Formats are .eot/.woff/.ttf/.svg, all legacy: convert
+      to .woff2 for the new build.
+*/

@@ -1,0 +1,184 @@
+/* ==========================================================================
+   Shop archive and page furniture. Values measured from the original.
+   ========================================================================== */
+
+/* Parallax title bar: margin-bottom 20px, padding 30px, fixed attachment. */
+.page-parallax {
+  min-height: clamp(200px, 26vw, 340px);
+  margin-block-end: 20px;
+  padding-block: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media (max-width: 48rem), (prefers-reduced-motion: reduce) {
+  .page-parallax { background-attachment: scroll; }
+}
+
+/* ---- Shop intro --------------------------------------------------------
+   Centred note with 10px / 30px padding, then the three cards on #FBFBFC
+   with 5px radius and 38px / 20px padding, and 50px below the group.   */
+
+.shop-intro { padding-block: 10px 30px; text-align: center; }
+
+.shop-intro p {
+  margin: 0 auto 0.5rem;
+  max-width: 70ch;
+  text-align: center;
+}
+
+.shop-intro .wp-block-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-block: 2rem 50px;
+  text-align: left;
+}
+@media (max-width: 52rem) {
+  .shop-intro .wp-block-columns { grid-template-columns: 1fr; }
+}
+
+.shop-intro .wp-block-column {
+  background: #FBFBFC;
+  border-radius: 5px;
+  padding: 38px 20px;
+  flex-basis: auto !important;
+}
+
+.shop-intro .wp-block-column p {
+  margin: 0;
+  max-width: none;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.shop-intro .wp-block-column strong {
+  display: block;
+  margin-block-end: 0.4rem;
+  font-family: var(--mk-font-ui);
+  font-weight: 400;
+  font-size: var(--mk-size-h3);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+  color: var(--mk-gold);
+}
+
+/* ---- Result count and ordering ------------------------------------------ */
+
+.shop__bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-block-end: 2rem;
+}
+
+.shop__bar .woocommerce-result-count {
+  margin: 0;
+  font-family: var(--mk-font-ui);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mk-ink);
+  text-align: left;
+}
+
+.shop__bar select,
+.woocommerce-ordering select {
+  border: 1px solid rgb(0 0 0 / 0.15);
+  border-radius: 0;
+  padding: 0.6rem 0.75rem;
+  background: #fff;
+  font-family: var(--mk-font-ui);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* ---- Archive heading ---------------------------------------------------- */
+
+.archive-head { text-align: center; padding-block: clamp(2rem, 5vw, 3.5rem) 1.5rem; }
+
+.page-entry__head { text-align: center; padding-block: clamp(2rem, 5vw, 3.5rem) 1.5rem; }
+.page-entry__content { padding-block-end: 8%; }
+
+/* ---- FAQ accordion -----------------------------------------------------
+   Core Details blocks, so Melinda edits them in the editor like any other
+   content. Styled to match the original accordion.                      */
+
+.mk-faq {
+  border-block-end: 1px solid rgb(0 0 0 / 0.1);
+  padding-block: 0.35rem;
+}
+
+.mk-faq > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1rem 2rem 1rem 0;
+  position: relative;
+  font-family: var(--mk-font-display);
+  font-weight: 300;
+  font-size: var(--mk-size-h2);
+  line-height: var(--mk-leading-head);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+  color: var(--mk-ink);
+}
+.mk-faq > summary::-webkit-details-marker { display: none; }
+
+.mk-faq > summary::after {
+  content: '+';
+  position: absolute;
+  inset-inline-end: 0;
+  inset-block-start: 50%;
+  translate: 0 -50%;
+  font-family: var(--mk-font-ui);
+  font-size: 18px;
+  color: var(--mk-gold);
+}
+.mk-faq[open] > summary::after { content: '\2212'; }
+.mk-faq[open] > summary { color: var(--mk-gold); }
+
+.mk-faq p { padding-block-end: 1rem; }
+
+/* ---- Image grid --------------------------------------------------------
+   Core Gallery block at five across, matching the original layout.     */
+
+.mk-grid.wp-block-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: -10px;
+  gap: 0;
+}
+.mk-grid.wp-block-gallery figure {
+  width: 20%;
+  margin: 0 0 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 767px) {
+  .mk-grid.wp-block-gallery figure { width: 100%; }
+}
+.mk-grid.wp-block-gallery img { width: 100%; height: auto; display: block; }
+
+/* ---- Framed image ------------------------------------------------------- */
+
+.mk-framed img { border: var(--mk-frame) solid #fff; display: block; width: 100%; }
+
+/* ---- Two-column split used on Weddings ---------------------------------- */
+
+.mk-split.wp-block-columns { gap: 30px; align-items: flex-start; }
+.mk-split .wp-block-column p { text-align: justify; }
+.mk-split ul { padding-inline-start: 1.25rem; }
+.mk-split li {
+  font-family: var(--mk-font-display);
+  font-weight: 300;
+  font-size: var(--mk-size-body);
+  line-height: var(--mk-leading-body);
+  color: var(--mk-ink);
+  margin-block-end: 0.75rem;
+  text-align: justify;
+}

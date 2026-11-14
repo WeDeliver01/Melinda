@@ -1,0 +1,201 @@
+/* ==========================================================================
+   Homepage
+   Values taken from the previous site's rendered CSS, not estimated.
+   ========================================================================== */
+
+:root {
+  --mk-sage: #F8F9F4;
+  --mk-frame: 10px;
+}
+
+/* Container matches the old site exactly: 1100px. */
+.container {
+  width: min(100% - 2.5rem, var(--mk-container));
+  margin-inline: auto;
+}
+
+/* ---- Slider ------------------------------------------------------------- */
+
+[x-cloak] { display: none !important; }
+
+.slider {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1920 / 900;
+  overflow: clip;
+  background: #E7E7E7;
+}
+@media (max-width: 48rem) { .slider { aspect-ratio: 4 / 5; } }
+
+.slider__slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 900ms ease;
+}
+.slider__slide.is-active { opacity: 1; }
+.slider__img { width: 100%; height: 100%; object-fit: cover; }
+
+.slider__dots {
+  position: absolute;
+  inset-inline: 0;
+  inset-block-end: 1.25rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  z-index: 2;
+}
+.slider__dot {
+  width: 8px; height: 8px; padding: 0;
+  border: 1px solid rgb(255 255 255 / 0.85);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 200ms ease;
+}
+.slider__dot.is-on { background: #fff; }
+
+/* ---- Statement band ----------------------------------------------------
+   margin-top 5px, padding 6% / 8%, background #f8f9f4.                  */
+
+.home-statement {
+  margin-block-start: 5px;
+  padding-block: 6% 8%;
+  background: var(--mk-sage);
+}
+
+.home-statement h1 {
+  margin: 0;
+  text-align: center;
+  font-family: var(--mk-font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.75;
+  letter-spacing: 0.1em;
+  text-transform: none;
+  color: var(--mk-gold);
+}
+@media (max-width: 48rem) { .home-statement h1 { font-size: 20px; } }
+
+/* ---- Story ------------------------------------------------------------
+   Row padding-bottom 8%. Image column 1/3 with a 10px white border and a
+   -80px pull so it overlaps the sage band. Text column 2/3 with 4%
+   vertical padding. 30px gap before the button.                         */
+
+.home-story { padding-block-end: 8%; }
+
+.home-story__grid { display: flex; flex-wrap: wrap; margin-inline: -15px; }
+.home-story__figure { width: 33.33333333%; padding-inline: 15px; margin-block-start: -80px; }
+.home-story__text   { width: 66.66666667%; padding-inline: 15px; padding-block: 4%; }
+
+.home-story__figure img { display: block; width: 100%; border: var(--mk-frame) solid #fff; }
+.home-story__cta { margin-block-start: 30px; }
+
+@media only screen and (max-width: 767px) {
+  .home-story__figure,
+  .home-story__text { width: 100%; }
+  .home-story__figure { margin-block-start: -50px; max-width: 20rem; margin-inline: auto; }
+}
+
+/* ---- Page banner -------------------------------------------------------
+   10px margin all round, 10px white border, 15% vertical padding, cover
+   background. Plate is rgba(255,255,255,0.8) with 2%/4% padding, sitting
+   in the middle two thirds.                                             */
+
+.page-banner {
+  margin: 10px;
+  border: var(--mk-frame) solid #fff;
+  padding-block: 15%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-banner__plate {
+  width: 66.66666667%;
+  margin-inline: auto;
+  padding-block: 2% 4%;
+  padding-inline: 1rem;
+  background: rgb(255 255 255 / 0.8);
+  text-align: center;
+}
+@media (max-width: 48rem) {
+  .page-banner { padding-block: 22%; }
+  .page-banner__plate { width: calc(100% - 2rem); }
+}
+
+.page-banner__title {
+  margin: 0;
+  font-family: var(--mk-font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.75;
+  letter-spacing: 0.1em;
+  text-transform: none;
+  color: var(--mk-gold);
+}
+
+.page-banner__quote {
+  margin: 0;
+  font-family: var(--mk-font-display);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgb(99 99 99);
+  text-align: center;
+}
+
+/* ---- Image tiles -------------------------------------------------------
+   Row padding 8%. Boxed centred title on rgba white, 25px margin and
+   padding, with the slow grow on hover.                                 */
+
+.home-tiles { padding-block: 8%; }
+
+.home-tiles__grid { display: flex; flex-wrap: wrap; margin-inline: -15px; }
+.home-tiles__grid > * { width: 33.33333333%; padding-inline: 15px; }
+@media only screen and (max-width: 767px) {
+  .home-tiles__grid > * { width: 100%; margin-block-end: 30px; }
+}
+
+/* Total's overlay-parent: inline-block, relative, overflow clipped by the
+   image-hover wrapper. The title is content-sized and centred, not a
+   full-bleed panel: margin 25px, padding 25px, solid white, black 600. */
+.image-tile {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  width: 100%;
+  color: inherit;
+}
+.image-tile:hover { text-decoration: none; }
+
+.image-tile__frame { display: block; }
+.image-tile__frame img { display: block; width: 100%; transition: all 250ms; }
+.image-tile:hover .image-tile__frame img { transform: scale(1.2); backface-visibility: hidden; }
+
+.image-tile__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms;
+  pointer-events: none;
+}
+
+.image-tile__title {
+  margin: 25px;
+  padding: 25px;
+  background: #fff;
+  font-family: var(--mk-font-display);
+  font-weight: 600;
+  font-size: 1.077em;
+  line-height: 1.4;
+  color: #000;
+  text-align: center;
+}

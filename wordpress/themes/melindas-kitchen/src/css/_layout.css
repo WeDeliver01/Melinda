@@ -1,0 +1,165 @@
+/* ==========================================================================
+   Layout
+   Values taken from Total's style.css and the Customizer output, not
+   estimated. Total sets html{font-size:62.5%} and body{font-size:13px},
+   then the site's custom CSS resets body to 16px. Everything here is the
+   resolved result.
+   ========================================================================== */
+
+/* Container: 980px by default, 1100px from the Customizer, capped at 90%
+   of the viewport rather than a fixed gutter. */
+.container {
+  width: var(--mk-container);
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+/* ---- Header ------------------------------------------------------------
+   header-five: a single centred list with the logo as a middle item. The
+   list is display:table, items are table-cells, links are 50px tall. The
+   logo item carries 40px of horizontal padding, which is what creates the
+   gap either side of the mark.                                          */
+
+.site-header { position: relative; padding: 0; }
+
+.site-header__inner {
+  position: relative;
+  padding-block: 30px;
+  height: 100%;
+}
+
+.site-header__bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  list-style: none;
+  padding: 0;
+}
+
+.primary-nav {
+  display: contents;
+}
+
+.primary-nav__item { display: block; }
+
+.primary-nav__item > a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 4px;
+  color: #555;
+  font-weight: normal;
+}
+
+.primary-nav__item > a > .link-inner {
+  display: inline-block;
+  line-height: normal;
+  padding: 0.5em 0.8em;
+  border-radius: 3px;
+  font-family: var(--mk-font-display);
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  text-transform: lowercase;
+}
+
+.primary-nav__item > a:hover,
+.primary-nav__item.is-current > a { color: var(--mk-accent); text-decoration: none; }
+
+/* The logo sits inside the list. */
+.menu-item-logo { padding: 0 40px; }
+
+.site-header__brand img,
+.site-header__brand .custom-logo {
+  display: inline;
+  vertical-align: middle;
+  height: auto;
+  width: auto;
+  max-height: var(--mk-logo-height);
+  max-width: 100%;
+}
+.site-header__brand .site-title {
+  font-family: var(--mk-font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: var(--mk-track-h1);
+  color: var(--mk-gold);
+}
+
+/* Mobile: Total switches to a toggle under the logo. */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 0;
+  padding: 0.5rem;
+  margin: 10px auto 0;
+  cursor: pointer;
+}
+.nav-toggle__box { display: block; width: 22px; height: 3px; background: #616161; position: relative; }
+.nav-toggle__box::before,
+.nav-toggle__box::after {
+  content: ''; position: absolute; left: 0; width: 22px; height: 3px; background: #616161;
+}
+.nav-toggle__box::before { top: -7px; }
+.nav-toggle__box::after  { top: 7px; }
+
+@media only screen and (max-width: 959px) {
+  .site-header__inner { text-align: center; }
+  .nav-toggle { display: block; }
+  .site-header__bar { flex-direction: column; }
+  .menu-item-logo { padding: 0; order: -1; }
+  .primary-nav { display: none; }
+  .site-header__bar.is-open .primary-nav { display: contents; }
+  .site-header__bar.is-open .primary-nav__item > a { height: auto; line-height: 2.2; }
+}
+
+/* ---- Footer ------------------------------------------------------------
+   Measured: background #F8F9F4, 1px solid #B49778 top border, 4% padding. */
+
+.site-footer {
+  padding-block: 4%;
+  background: var(--mk-sage);
+  border-block-start: 1px solid var(--mk-rule);
+}
+
+.site-footer__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: -10px;
+  align-items: center;
+}
+.site-footer__col {
+  flex: 1 1 33.33%;
+  padding-inline: 10px;
+  margin-block-end: 20px;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .site-footer__col { flex-basis: 100%; }
+}
+
+.site-footer__contact,
+.site-footer__legal {
+  margin: 0 0 20px;
+  font-family: var(--mk-font-ui);
+  font-weight: 400;
+  font-size: var(--mk-size-h3);
+  line-height: var(--mk-leading-head);
+  letter-spacing: var(--mk-track-wide);
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--mk-ink);
+}
+.site-footer__legal:last-child { margin-block-end: 0; }
+.site-footer__contact a,
+.site-footer__legal a { color: var(--mk-ink); }
+.site-footer__contact a:hover,
+.site-footer__legal a:hover { color: var(--mk-accent); text-decoration: none; }
+
+.site-footer__logo { max-width: 200px; margin-inline: auto; }
+
+.social { display: flex; justify-content: center; gap: 10px; list-style: none; margin: 0; }
+.social a { display: block; color: var(--mk-ink); }
+.social svg { width: 20px; height: 20px; fill: currentColor; }
+.social a:hover { color: var(--mk-accent); }
