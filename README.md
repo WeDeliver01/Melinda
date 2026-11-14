@@ -4,6 +4,8 @@ Custom WooCommerce build for Melinda's Kitchen, a studio bakery in Faerie Glen, 
 
 Read **[HANDOVER.md](HANDOVER.md)** first. It covers project state, commercial position, technical findings and everything outstanding.
 
+The phased plan, including how this store fits into the Commerce Engine platform, is in **[docs/ROADMAP.md](docs/ROADMAP.md)**.
+
 ## Live environments
 
 | | |
