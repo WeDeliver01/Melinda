@@ -54,7 +54,7 @@ For `npm run dev` to be picked up, add this to `wp-config.php` and remove it bef
 define( 'MK_VITE_DEV', true );
 ```
 
-`dist/` is committed so the theme works on upload without a build step.
+`dist/` is not committed. `scripts/deploy.sh` builds it before every deploy.
 
 ## Deploying the theme
 
