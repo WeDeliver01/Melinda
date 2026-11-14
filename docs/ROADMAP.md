@@ -93,7 +93,7 @@ Steps run in this order. Each step leaves the site working.
 | # | Step | Size | Notes |
 |---|---|---|---|
 | 1.1 | **Staging on `staging.melindaskitchen.co.za`** | S | One A record, a new CloudPanel site, clone the current Operandi staging (files + DB), `wp search-replace`, SSL, basic auth, `blog_public = 0`. A script lives in `scripts/` so it can be repeated. |
-| 1.2 | **Remove duplicate products** | S | Dry-run report first, then move the duplicates to trash. Never force-delete. |
+| 1.2 | **Fix the shop count (39 vs 29)** | S | Most likely not duplicates: the CSV has 29 published + 10 drafts, and every "(Copy)" title is a draft. `reconcile-products.php` restores the source status and trashes any true repeats. |
 | 1.3 | **Import product add-ons** | S | Buy and install WooCommerce Product Add-Ons, then run `import-addons.php`. Hardened importer: dry-run, idempotent, reports unmatched titles. |
 | 1.4 | **Collect / pickup in `mk-core`, Delicate Courier installed** | M | Port pickup from the Commit 1 plugin into `mk-core`. Install and configure Delicate Courier. |
 | 1.5 | **FAQ on Contact, occasion terms assigned** | S | Content script plus an occasion-term mapping file that Melinda can review before it's applied. |
@@ -194,8 +194,22 @@ Phases 2, 6 and 7 are Operandi's own platform investment in either case.
 
 ---
 
-## 6. Next actions
+## 6. Progress
 
-1. Add DNS record `staging A 139.84.250.19` on the currently authoritative nameservers.
-2. Run step 1.1 using `scripts/setup-staging.sh` (to be written next).
-3. Continue with steps 1.2 to 1.5 in order.
+| Item | Code | Run on server |
+|---|---|---|
+| 1.1 Staging | `scripts/setup-staging.sh`, `scripts/deploy.sh`, `wordpress/mu-plugins/mk-staging-guard.php` | Pending. The DNS record is added last. |
+| 1.2 Shop count | `scripts/reconcile-products.php` | Pending |
+| 1.3 Add-ons | `scripts/import-addons.php` (hardened) | Pending. Needs the Product Add-Ons plugin. |
+| 1.4 Collection and delivery | `mk-core` 1.1, `scripts/setup-fulfilment.php`, `docs/runbooks/fulfilment.md` | Pending. Needs the Commit 1 plugin source for time slots and the courier. |
+| 1.5 FAQ and occasions | `data/page-content/contact.html`, `data/occasion-map.csv`, `scripts/apply-contact.php`, `scripts/assign-occasions.php` | Pending. Melinda reviews the occasion map first. |
+| Phase 2 foundation | `WeDeliver01/commerce-engine` on branch `claude/engine-foundation` | Packages and plugins built and tested. Not yet tagged. |
+
+Every server script is report-only by default. Run order and commands: `scripts/README.md`.
+
+## 7. Next actions
+
+1. `bash scripts/deploy.sh staging` after `setup-staging.sh site`, then run steps 1.2 to 1.5 on staging in order.
+2. Commit the Commit 1 checkout plugin source to `wordpress/plugins/`.
+3. Raise the 796 on-hold orders with Melinda, and send her the occasion map and the fulfilment questions in `docs/runbooks/fulfilment.md`.
+4. Last: add DNS record `staging A 139.84.250.19`, then `setup-staging.sh ssl`.
